@@ -1,0 +1,78 @@
+header {
+    background: #484848;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    right: 0;
+    top: 20px;
+    position: absolute;
+    word-spacing: 10px;
+}
+
+nav li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline;
+    font-size: 20px;
+    margin: o o o 30px;
+    color: rgb(213, 213, 213);
+}
+
+nav li:hover{
+    color: white;
+    font-size: 30px;
+} 
+
+.produtos{
+    list-style: none;
+    width: 940px;
+    margin: 0 auto;
+    padding: 140px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 30px;
+    box-sizing: #484848 border-box;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.p1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.p2{
+    font-size: 18px;
+    color: #06c;
+}
+
+.produtos li:hover{
+    border-color: #06c;
+}
+
+footer{
+    text-align: center;
+    background: #484848;
+    padding: 30px 0;
+}
+
+.copyright{
+    color: rgb(213, 213, 213);
+    font-size: 20px;
+    margin-top: 10px;
+}
